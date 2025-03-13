@@ -76,3 +76,129 @@ while True:
         break
     else:
         print("Invalid choice! Please try again.")
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Task 2: Implementing CRUD Operations
+
+1. Add a New Contact. Prompt the user for name, phone number, and email. Append the contact as a tuple to the list. Prevent duplicate names.
+
+Welcome to Contact Manager
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+
+Enter your choice: 1
+Enter Name: Ajay
+Enter Phone Number: 1234
+Enter Email: qwe
+Contact added successfully!
+
+-------------------------------------------------------------------------
+
+2. View All Contacts. Display all stored contacts in a formatted manner.
+
+Welcome to Contact Manager
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+
+Enter your choice: 2
+List of Contacts:
+1. Ajay - 1234 - qwe
+
+-------------------------------------------------------------------------
+
+3. Search for a Contact by Name. Allow the user to enter a name. Find and display the corresponding contact.
+
+Welcome to Contact Manager
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+
+Enter your choice: 3
+Enter name to search: Ajay
+Contact Found: Ajay - 1234 - qwe
+
+Welcome to Contact Manager
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+
+Enter your choice: 3
+Enter name to search: abc
+Contact not found!
+
+-------------------------------------------------------------------------
+
+4. Update a Contact’s Phone Number. Search for a contact by name. If found, modify the phone number while keeping the name and email unchanged. Since tuples are immutable, replace the entire tuple in the list.
+
+Welcome to Contact Manager
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 4
+Enter name to update: Ajay
+Enter new phone number: 4567
+Contact updated successfully!
+
+-----------------------------------------------------------------------------------
+
+5. Delete a Contact. Search for a contact by name. Remove the contact from the list
+
+Welcome to Contact Manager
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+
+Enter your choice: 5
+Enter name to delete: Ajay
+Contact deleted successfully!
+
+
+Welcome to Contact Manager
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+
+Enter your choice: 2
+No contacts found!
+
+------------------------------------------------------------------------------------
+
+** Exiting from the contact manager
+
+Welcome to Contact Manager
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+
+Enter your choice: 6
+Exiting Contact Manager. Goodbye!
+
+=== Code Execution Successful ===
